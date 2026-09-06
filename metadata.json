@@ -1,0 +1,6 @@
+{
+  "name": "AI PDF Scanner",
+  "description": "AI PDF Scanner – Scan, OCR & PDF. Fast document scanner with edge detection, real on-device OCR, PDF tools, and AI document assistant by FX Signal Lab.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
