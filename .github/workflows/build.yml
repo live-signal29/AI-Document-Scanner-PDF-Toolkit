@@ -44,7 +44,7 @@ jobs:
             -dname "CN=Android Debug,O=Android,C=US"
 
       - name: Decode Release Keystore
-        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > my-upload-key.jks
+        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d --ignore-garbage > my-upload-key.jks
 
       - name: Make Gradlew Executable
         run: chmod +x ./gradlew
